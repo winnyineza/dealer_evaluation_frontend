@@ -6,8 +6,8 @@
 }
   </style>
   <script>
-    let produrl = "http://localhost:5000/"
-    let dealerurl = "http://localhost:8080/"
+    let produrl = "http://127.0.0.1:5002/"
+    let dealerurl = "http://127.0.0.1:8080/"
 
     axios.get(produrl+"products").then(res=>{
       let selEl = document.createElement("select");
